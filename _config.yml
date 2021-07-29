@@ -210,10 +210,10 @@ content:
     content:
       - layout: top-middle
         quote: >
-          지금까지의 프로젝트 중 Front-End와 DevOps와 관련된 주요 프로젝트 입니다.
+          아래는 주요 프로젝트 입니다.
       - layout: left
         sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
-        caption: Motov<br />20.09 ~ 현재
+        caption: Motov<br />20.09 ~ 21.07
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         # additional_links:
@@ -233,6 +233,7 @@ content:
             - 광고주들이 광고를 관리할 수 있는 '광고주 사이트' Front-End 개발
             - Zeplin을 통한 디자이너와 소통을 통한 UX 디자인 참여
             - '광고주 사이트' Front-End 빌드 및 배포
+            - 상태 관리 라이브러리 변경 (Redux -> Recoil)
 
           <strong>❏ 사용 기술</strong>
             - <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
@@ -240,6 +241,7 @@ content:
             <img src="https://img.shields.io/badge/JavaScript%20ES6-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
             <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
             - <img src="https://img.shields.io/badge/React%20Hooks-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+            <img src="https://img.shields.io/badge/Recoil-61DAFB?style=flat-square&logo=React&logoColor=black"/>
             <img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=React-Router&logoColor=white"/>
             <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
             <img src="https://img.shields.io/badge/Redux%20Saga-999999?style=flat-square&logo=Redux-Saga&logoColor=white"/>
@@ -250,12 +252,13 @@ content:
             - <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white"/>
             <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white"/>
 
+
           <strong>❏ 성과</strong>
             - 광고주 광고 사이트 초기 단계부터 설계 및 개발
 
       - layout: left
         sub_title: 광고 플랫폼 CI/CD 구축<br />(DevOps)
-        caption: Motov<br />20.09 ~ 현재
+        caption: Motov<br />20.09 ~ 21.07
         description: |
           <strong>❏ 프로젝트 개요</strong>
             - 서비스들의 빌드 및 배포 자동화 구축
@@ -264,11 +267,12 @@ content:
           <strong>❏ 역할</strong>
             - 서비스 버전 업데이트 체계 구축 및 자동화
             - 사내 Git flow 정의
-            - 기존의 CI/CD 서버에서 마이그레이션 (Jenkins)
+            - 기존의 CI/CD 서버에서 마이그레이션 (Jenkins ➡ AWS CodePipeline)
             - 서비스 환경 별 빌드 및 배포 프로세스 Pipeline화 (AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy)
             - AWS RDS(Aurora) 마이그레이션 자동화 구축 (flyway)
             - Blue/Green 무중단 배포 (Nginx, Docker)
             - JIRA 이슈 스프린트 리더
+            - AWS CDK를 이용한 IoC화 진행
 
           <strong>❏ 사용 기술</strong>
             - <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
@@ -285,15 +289,16 @@ content:
             <img src="https://img.shields.io/badge/Slack%20WEB%20API-4A154B?style=flat-square&logo=Slack&logoColor=white"/>
             <mark>Flyway</mark>
             - <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/> :
-            <mark>CodeBuild</mark> <mark>CodeDeploy</mark> <mark>CodePipeline</mark> <mark>S3</mark>
-            <mark>EC2</mark> <mark>ELB</mark> <mark>RDS</mark> <mark>SNS</mark> <mark>Lambda</mark>
+            <mark>CodePipeline</mark> <mark>CodeBuild</mark> <mark>CodeDeploy</mark>
 
           <strong>❏ 성과</strong>
-            - 광고주 광고 사이트 초기 단계부터 설계 및 개발
+            - 광고 플랫폼 서비스의 Pipeline 구축
+            - 광고 플랫폼 서비스 별로 Pipeline IoC화 완료 (AWS CDK)
+            - 광고 플랫폼 서비스 별로 Pipeline Event 알림 Slack Bot을 IoC화
 
       - layout: left
-        sub_title: 광고 플랫폼 Cloud Architecture Design 및 IoC 개발<br />(DevOps)
-        caption: Motov<br />20.09 ~ 현재
+        sub_title: 광고 플랫폼 Cloud Architecture Design (DevOps)
+        caption: Motov<br />20.09 ~ 21.07
         description: |
           <strong>❏ 프로젝트 개요</strong>
             - 광고주 플랫폼의 AWS Cloud Network Architecture 설계 및 구축
@@ -301,17 +306,19 @@ content:
 
           <strong>❏ 역할</strong>
             - AWS Cloud Architecture 설계 및 구축
-            - AWS Terraform과 CDK를 이용한 IoC 진행
+            - AWS Session manager를 통하여 보안 접근 가능하도록 구축
+            - 초기 IoC는 Terraform으로 진행
+            - 추후 AWS에 Native한 CDK를 이용한 IoC 진행
 
           <strong>❏ 사용 기술</strong>
             - <img src="https://img.shields.io/badge/AWS%20CDK-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
             <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=Terraform&logoColor=white"/>
             - <img src="https://img.shields.io/badge/AWS%20VPC-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-            <mark>VPC</mark> <mark>Subnet</mark> <mark>Internet Gateway</mark> <mark>NAT Gateway</mark>
-            <mark>Route</mark> <mark>EndPoint</mark> <mark>Session Manager</mark>
+            <img src="https://img.shields.io/badge/AWS%20Session%20Manager-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
 
           <strong>❏ 성과</strong>
-            - 광고주 광고 사이트 초기 단계부터 설계 및 개발
+            - 광고 플랫폼의 초기 Network Architecture Design
+            - 광고 플랫폼 서비스 구조의 보안성을 높이면서 Cloud Computing에 보다 쉽게 접근 할 수 있도록 설계
 
       - layout: left
         sub_title: NAC 관리자 웹 서비스 개발<br />(Front-End / DevOps)
@@ -415,9 +422,15 @@ content:
     layout: list
     content:
       - layout: left
+        title: 11번가
+        sub_title: Payment 데이터팀 (마이데이터)<br />Front-End Engineer
+        caption: 21.08 ~ 현재
+        # description: |
+
+      - layout: left
         title: Motov
         sub_title: 광고 플랫폼 개발팀<br />Front-End/DevOps Engineer
-        caption: 20.09 ~ 현재
+        caption: 20.09 ~ 21.07
         description: |
           * 광고 플랫폼의 Web 사이트 개발 (Front-End)
           * 광고 플랫폼의 CI/CD 구축 (DevOps)
