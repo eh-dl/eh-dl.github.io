@@ -212,6 +212,23 @@ content:
         quote: >
           아래는 주요 프로젝트 입니다.
       - layout: left
+        sub_title: 마이데이터 Front-End 서비스 개발
+        caption: 11번가<br />21.08 ~ 현재
+        description: |
+          <strong>❏ 프로젝트 개요</strong>
+            - 11번가가 마이데이터 사업자로 참여함에 따라 고객에게 신용 정보를 기반으로 데이터를 제공
+
+          <strong>❏ 역할</strong>
+            - 마이데이터 FE 서비스 신규 개발
+            - Storybook을 통한 디자인 시스템 구축
+
+          <strong>❏ 사용 기술</strong>
+          - TypeScript, React, Next.js
+          - Storybook, Emotion
+          - Recoil, SWR, React-Query
+          - Jest, React-testing-library, Cypress
+          - yarn, AWS EC2, ELB, Nginx
+      - layout: left
         sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
         caption: Motov<br />20.09 ~ 21.07
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -423,9 +440,11 @@ content:
     content:
       - layout: left
         title: 11번가
-        sub_title: Payment 데이터팀 (마이데이터)<br />Front-End Engineer
+        sub_title: SK Payment 데이터팀<br />Front-End Engineer
         caption: 21.08 ~ 현재
-        # description: |
+        description: |
+          * SK Payment 마이데이터 Front-End 서비스 개발
+          * SK Payment 마이데이터 디자인 시스템 구축
 
       - layout: left
         title: Motov
@@ -481,7 +500,7 @@ content:
           * 업무 중 발생한 트러블 슈팅 내용, 새롭게 공부한 내용 등 개발에 관련된 내용을 주제로 포스팅 합니다.
           * 사내 Wiki에 적은 글 중에서 공유하면 좋을 것 같은 내용은 옮기기도 합니다.
           * 최대한 머리가 아닌 글로 기억하려고 노력합니다.
-          * 주중 일 평균 100명 방문자 블로그 입니다.
+          * 주중 일 평균 150명 방문자 블로그 입니다.
 
 # Footer
 footer_show_references: true
@@ -500,13 +519,13 @@ plugins:
 
 exclude:
   [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-    "lib/",
-    "scripts/",
+    'Gemfile',
+    'Gemfile.lock',
+    'node_modules',
+    'vendor/bundle/',
+    'vendor/cache/',
+    'vendor/gems/',
+    'vendor/ruby/',
+    'lib/',
+    'scripts/',
   ]
