@@ -212,7 +212,7 @@ content:
         quote: >
           아래는 주요 프로젝트 입니다.
       - layout: left
-        sub_title: 마이데이터 Front-End 서비스 개발
+        sub_title: 마이데이터 Front-End mobile WebView 서비스 개발
         caption: 11번가<br />21.08 ~ 현재
         description: |
           <strong>❏ 프로젝트 개요</strong>
@@ -221,13 +221,15 @@ content:
           <strong>❏ 역할</strong>
             - 마이데이터 FE 서비스 신규 개발
             - Storybook을 통한 디자인 시스템 구축
+            - 11번가 App에서 제공하는 Scheme 연동
+            - 사용자 정보제공동의 시 공동인증서, 사설인증서 연동
 
           <strong>❏ 사용 기술</strong>
           - TypeScript, React, Next.js
           - Storybook, Emotion
-          - Recoil, SWR, React-Query
-          - Jest, React-testing-library, Cypress
-          - yarn, AWS EC2, ELB, Nginx
+          - Recoil, React-Query
+          - Jest, Cypress
+          - yarn, AWS CloudFront, EC2, ELB, Nginx
       - layout: left
         sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
         caption: Motov<br />20.09 ~ 21.07
