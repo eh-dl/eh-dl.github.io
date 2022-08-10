@@ -1,11 +1,3 @@
-<div style="display: flex; justify-content: center;">
-  <div id="markdown-show-btn" style="cursor: pointer;">
-    <img src="https://img.shields.io/badge/마크다운%20보기-000000?style=flat-square"/>
-  </div>
-  <div id="badge-show-btn" style="cursor: pointer;">
-    <img src="https://img.shields.io/badge/배지로%20보기-FF3621?style=flat-square"/>
-  </div>
-</div>
 <div id="skill-area">
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} skill-{{item.card | default: 'text'}}">
