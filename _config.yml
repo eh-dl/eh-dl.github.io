@@ -134,7 +134,7 @@ content:
           아래는 주요 프로젝트 입니다.
       - layout: left
         sub_title: 마이데이터 Front-End mobile WebView 서비스 개발
-        caption: 11번가<br />21.08 ~ 현재
+        caption: 11번가<br />21.08 ~ 22.11
         description: |
           <strong>❏ 프로젝트 개요</strong>
             - 11번가가 마이데이터 사업자로 참여함에 따라 고객에게 신용 정보를 기반으로 데이터를 제공
@@ -144,6 +144,7 @@ content:
             - 마이데이터 홈페이지 FE 신규 개발
             - 마이데이터 Back Office 신규 개발
             - Storybook을 통한 디자인 시스템 구축
+            - 마이데이터 회원 - 11번가 회원 연동
             - 11번가 App에서 제공하는 Scheme 연동
             - 사용자 정보제공동의 시 공동인증서, 사설인증서 연동
             - 앱 위변조 솔루션 적용
@@ -158,6 +159,10 @@ content:
           - AWS CloudFront, EC2, ELB, Nginx
           - Sentry
           - Yarn berry, Mono Repo
+
+          <strong>❏ 성과</strong>
+            - 마이데이터 서비스 오픈(22.10.24, <a href="https://news.mt.co.kr/mtview.php?no=2022102508162794435">뉴스 기사</a>)
+
       - layout: left
         sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
         caption: Motov<br />20.09 ~ 21.07
@@ -323,9 +328,16 @@ content:
     layout: list
     content:
       - layout: left
+        title: Coupang
+        sub_title: Rocket Growth<br />Front-End Engineer
+        caption: 22.11 ~ 현재
+        # description: |
+        #   * 1
+
+      - layout: left
         title: 11번가
         sub_title: SK Payment 데이터팀<br />Front-End Engineer
-        caption: 21.08 ~ 현재
+        caption: 21.08 ~ 22.11
         description: |
           * SK Payment 마이데이터 Front-End 서비스 개발
           * SK Payment 마이데이터 디자인 시스템 구축
