@@ -6,7 +6,7 @@ favicon: https://github.githubassets.com/favicons/favicon-dark.png
 version: 2
 
 # Personal info
-name: 이태민
+name: 이 태민
 title: Infra Syetem Engineer
 email_title: Email
 email: ltmsky@hanmail.net
@@ -16,7 +16,7 @@ email: ltmsky@hanmail.net
 # website: https://rocketpunch.com/@minhoe1122
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
@@ -28,7 +28,7 @@ darkmode: true
 # facebook_username: people/이민회/100003013980481/
 # flickr_username: jekyll
 instagram_username: eh._.dl
-# linkedin_username: 민회-이-965b68211
+linkedin_username: https://www.linkedin.com/in/ehdl-208177284/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
